@@ -1,0 +1,10 @@
+system:
+    extended_mode: 'MultiDataTile'
+    magic_variable: True
+    save_thumbnail_image: True
+
+vsm:
+    manufacturer: 'LakeShore'
+    main_image_settings: bs
+    plot_bs_curve: true
+    plot_ms_curve: true

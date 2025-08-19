@@ -1,0 +1,309 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://rde.nims.go.jp/rde/dataset-templates/NIMS_VSM_LAKESHORE_1.0/invoice.schema.json",
+    "description": "固有情報と試料情報のスキーマ",
+    "type": "object",
+    "required": [
+        "custom",
+        "sample"
+    ],
+    "properties": {
+        "custom": {
+            "type": "object",
+            "label": {
+                "ja": "固有情報",
+                "en": "Custom Information"
+            },
+            "required": [],
+            "properties": {
+                "sample_size_height": {
+                    "label": {
+                        "ja": "サンプルサイズ(縦)",
+                        "en": "SAMPLE_SIZE(height)"
+                    },
+                    "type": "number",
+                    "options": {
+                        "unit": "mm"
+                    }
+                },
+                "sample_size_width": {
+                    "label": {
+                        "ja": "サンプルサイズ(横)",
+                        "en": "SAMPLE_SIZE(width)"
+                    },
+                    "type": "number",
+                    "options": {
+                        "unit": "mm"
+                    }
+                },
+                "sample_size_thickness": {
+                    "label": {
+                        "ja": "サンプルサイズ(厚さ)",
+                        "en": "SAMPLE_SIZE(thickness)"
+                    },
+                    "type": "number",
+                    "options": {
+                        "unit": "nm"
+                    }
+                },
+                "key1": {
+                    "label": {
+                        "ja": "キー1",
+                        "en": "key1"
+                    },
+                    "type": "string"
+                },
+                "key2": {
+                    "label": {
+                        "ja": "キー2",
+                        "en": "key2"
+                    },
+                    "type": "string"
+                },
+                "key3": {
+                    "label": {
+                        "ja": "キー3",
+                        "en": "key3"
+                    },
+                    "type": "string"
+                },
+                "key4": {
+                    "label": {
+                        "ja": "キー4",
+                        "en": "key4"
+                    },
+                    "type": "string"
+                },
+                "key5": {
+                    "label": {
+                        "ja": "キー5",
+                        "en": "key5"
+                    },
+                    "type": "string"
+                },
+                "background_removal": {
+                    "label": {
+                        "ja": "バックグラウンド処理の有無",
+                        "en": "background_removal"
+                    },
+                    "type": "boolean",
+                    "default": true
+                },
+                "spike_removal": {
+                    "label": {
+                        "ja": "スパイクノイズ除去処理の有無",
+                        "en": "spike_removal"
+                    },
+                    "type": "boolean",
+                    "default": true
+                },
+                "feature_acquisition": {
+                    "label": {
+                        "ja": "特徴量取得の有無",
+                        "en": "feature_acquisition"
+                    },
+                    "type": "boolean",
+                    "default": true
+                },
+                "common_data_type": {
+                    "label": {
+                        "ja": "登録データタイプ",
+                        "en": "Data Type"
+                    },
+                    "type": "string",
+                    "default": "Lakeshore"
+                },
+                "common_data_origin": {
+                    "label": {
+                        "ja": "データの起源",
+                        "en": "Data Origin"
+                    },
+                    "type": "string",
+                    "default": "experiments"
+                },
+                "common_technical_category": {
+                    "label": {
+                        "ja": "技術カテゴリー",
+                        "en": "Technical Category"
+                    },
+                    "type": "string",
+                    "default": "property"
+                },
+                "common_reference": {
+                    "label": {
+                        "ja": "参考文献",
+                        "en": "Reference"
+                    },
+                    "type": "string"
+                },
+                "property_property": {
+                    "label": {
+                        "ja": "特徴的性質",
+                        "en": "Property"
+                    },
+                    "type": "string",
+                    "default": "磁性"
+                },
+                "property_sub_category": {
+                    "label": {
+                        "ja": "サブカテゴリー",
+                        "en": "Sub category"
+                    },
+                    "type": "string",
+                    "default": "保磁力(coercivity)"
+                },
+                "measurement_method_category": {
+                    "label": {
+                        "ja": "計測法カテゴリー",
+                        "en": "Method category"
+                    },
+                    "type": "string",
+                    "default": "磁気特性"
+                },
+                "measurement_method_sub_category": {
+                    "label": {
+                        "ja": "計測法サブカテゴリー",
+                        "en": "Method sub-category"
+                    },
+                    "type": "string",
+                    "default": "磁気特性測定システム"
+                },
+                "measurement_analysis_field": {
+                    "label": {
+                        "ja": "分析分野",
+                        "en": "Analysis field"
+                    },
+                    "type": "string",
+                    "default": "磁気特性"
+                },
+                "measurement_measurement_environment": {
+                    "label": {
+                        "ja": "測定環境",
+                        "en": "Measurement environment"
+                    },
+                    "type": "string"
+                },
+                "measurement_energy_level_transition_structure_etc_of_interest": {
+                    "label": {
+                        "ja": "対象準位_遷移_構造",
+                        "en": "Energy Level_Transition_Structure etc. of interest"
+                    },
+                    "type": "string"
+                },
+                "measurement_measured_date": {
+                    "label": {
+                        "ja": "分析年月日",
+                        "en": "Measured date"
+                    },
+                    "type": "string",
+                    "format": "date"
+                },
+                "measurement_standardized_procedure": {
+                    "label": {
+                        "ja": "標準手順",
+                        "en": "Standardized procedure"
+                    },
+                    "type": "string"
+                },
+                "measurement_instrumentation_site": {
+                    "label": {
+                        "ja": "装置設置場所",
+                        "en": "Instrumentation site"
+                    },
+                    "type": "string"
+                }
+            }
+        },
+        "sample": {
+            "type": "object",
+            "label": {
+                "ja": "試料情報",
+                "en": "Sample Information"
+            },
+            "properties": {
+                "generalAttributes": {
+                    "type": "array",
+                    "items": [
+                        {
+                            "type": "object",
+                            "required": [
+                                "termId"
+                            ],
+                            "properties": {
+                                "termId": {
+                                    "const": "3adf9874-7bcb-e5f8-99cb-3d6fd9d7b55e"
+                                }
+                            }
+                        },
+                        {
+                            "type": "object",
+                            "required": [
+                                "termId"
+                            ],
+                            "properties": {
+                                "termId": {
+                                    "const": "e2d20d02-2e38-2cd3-b1b3-66fdb8a11057"
+                                }
+                            }
+                        },
+                        {
+                            "type": "object",
+                            "required": [
+                                "termId"
+                            ],
+                            "properties": {
+                                "termId": {
+                                    "const": "efcf34e7-4308-c195-6691-6f4d28ffc9bb"
+                                }
+                            }
+                        },
+                        {
+                            "type": "object",
+                            "required": [
+                                "termId"
+                            ],
+                            "properties": {
+                                "termId": {
+                                    "const": "7cc57dfb-8b70-4b3a-5315-fbce4cbf73d0"
+                                }
+                            }
+                        },
+                        {
+                            "type": "object",
+                            "required": [
+                                "termId"
+                            ],
+                            "properties": {
+                                "termId": {
+                                    "const": "1e70d11d-cbdd-bfd1-9301-9612c29b4060"
+                                }
+                            }
+                        },
+                        {
+                            "type": "object",
+                            "required": [
+                                "termId"
+                            ],
+                            "properties": {
+                                "termId": {
+                                    "const": "5e166ac4-bfcd-457a-84bc-8626abe9188f"
+                                }
+                            }
+                        },
+                        {
+                            "type": "object",
+                            "required": [
+                                "termId"
+                            ],
+                            "properties": {
+                                "termId": {
+                                    "const": "0d0417a3-3c3b-496a-b0fb-5a26f8a74166"
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

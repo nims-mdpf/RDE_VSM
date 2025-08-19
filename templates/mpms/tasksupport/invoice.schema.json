@@ -1,0 +1,180 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://rde.nims.go.jp/rde/dataset-templates/NIMS_VSM_MPMS2_1.0/invoice.schema.json",
+    "description": "固有情報と試料情報のスキーマ",
+    "type": "object",
+    "required": [
+        "custom"
+    ],
+    "properties": {
+        "custom": {
+            "type": "object",
+            "label": {
+                "ja": "固有情報",
+                "en": "Custom Information"
+            },
+            "required": [],
+            "properties": {
+                "background_removal": {
+                    "label": {
+                        "ja": "バックグラウンド処理の有無",
+                        "en": "background_removal"
+                    },
+                    "type": "boolean",
+                    "default": true
+                },
+                "spike_removal": {
+                    "label": {
+                        "ja": "スパイクノイズ除去処理の有無",
+                        "en": "spike_removal"
+                    },
+                    "type": "boolean",
+                    "default": true
+                },
+                "feature_acquisition": {
+                    "label": {
+                        "ja": "特徴量取得の有無",
+                        "en": "feature_acquisition"
+                    },
+                    "type": "boolean",
+                    "default": true
+                },
+                "sputtering_apparatus": {
+                    "type": "string",
+                    "label": {
+                        "ja": "スパッタリング装置",
+                        "en": "Sputtering Apparatus"
+                    }
+                },
+                "specimen_label": {
+                    "type": "string",
+                    "label": {
+                        "ja": "試料名",
+                        "en": "Specimen label"
+                    }
+                },
+                "sample_year": {
+                    "type": "string",
+                    "label": {
+                        "ja": "試料作製年",
+                        "en": "Sample year"
+                    }
+                },
+                "sample_month": {
+                    "type": "string",
+                    "label": {
+                        "ja": "試料作製月",
+                        "en": "Sample month"
+                    }
+                },
+                "common_data_type": {
+                    "label": {
+                        "ja": "登録データタイプ",
+                        "en": "Data Type"
+                    },
+                    "type": "string",
+                    "default": "VSM"
+                },
+                "common_data_origin": {
+                    "label": {
+                        "ja": "データの起源",
+                        "en": "Data Origin"
+                    },
+                    "type": "string",
+                    "default": "experiments"
+                },
+                "common_technical_category": {
+                    "label": {
+                        "ja": "技術カテゴリー",
+                        "en": "Technical Category"
+                    },
+                    "type": "string",
+                    "default": "measurement"
+                },
+                "common_reference": {
+                    "label": {
+                        "ja": "参考文献",
+                        "en": "Reference"
+                    },
+                    "type": "string"
+                },
+                "property_property": {
+                    "label": {
+                        "ja": "特徴的性質",
+                        "en": "Property"
+                    },
+                    "type": "string",
+                    "default": "磁性"
+                },
+                "property_sub_category": {
+                    "label": {
+                        "ja": "サブカテゴリー",
+                        "en": "Sub category"
+                    },
+                    "type": "string",
+                    "default": "飽和磁化"
+                },
+                "measurement_method_category": {
+                    "label": {
+                        "ja": "計測法カテゴリー",
+                        "en": "Method category"
+                    },
+                    "type": "string",
+                    "default": "磁気特性"
+                },
+                "measurement_method_sub_category": {
+                    "label": {
+                        "ja": "計測法サブカテゴリー",
+                        "en": "Method sub-category"
+                    },
+                    "type": "string",
+                    "default": "磁気特性測定システム"
+                },
+                "measurement_analysis_field": {
+                    "label": {
+                        "ja": "分析分野",
+                        "en": "Analysis field"
+                    },
+                    "type": "string",
+                    "default": "構造、微細組織、磁気特性"
+                },
+                "measurement_measurement_environment": {
+                    "label": {
+                        "ja": "測定環境",
+                        "en": "Measurement environment"
+                    },
+                    "type": "string"
+                },
+                "measurement_energy_level_transition_structure_etc_of_interest": {
+                    "label": {
+                        "ja": "対象準位_遷移_構造",
+                        "en": "Energy Level_Transition_Structure etc. of interest"
+                    },
+                    "type": "string"
+                },
+                "measurement_measured_date": {
+                    "label": {
+                        "ja": "分析年月日",
+                        "en": "Measured date"
+                    },
+                    "type": "string",
+                    "format": "date"
+                },
+                "measurement_standardized_procedure": {
+                    "label": {
+                        "ja": "標準手順",
+                        "en": "Standardized procedure"
+                    },
+                    "type": "string"
+                },
+                "measurement_instrumentation_site": {
+                    "label": {
+                        "ja": "装置設置場所",
+                        "en": "Instrumentation site"
+                    },
+                    "type": "string"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,87 @@
+{
+    "sample_size_height": {
+        "name": {
+            "ja": "サンプルサイズ(縦)",
+            "en": "SAMPLE_SIZE(height)"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "unit": "mm"
+    },
+    "sample_size_width": {
+        "name": {
+            "ja": "サンプルサイズ(横)",
+            "en": "SAMPLE_SIZE(width)"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "unit": "mm"
+    },
+    "sample_size_thickness": {
+        "name": {
+            "ja": "サンプルサイズ(厚さ)",
+            "en": "SAMPLE_SIZE(thickness)"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "unit": "nm"
+    },
+    "hc": {
+        "name": {
+            "ja": "保磁力",
+            "en": "Hc"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "unit": "T",
+        "_feature": true
+    },
+    "br": {
+        "name": {
+            "ja": "残留磁化",
+            "en": "Br"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "unit": "emu",
+        "_feature": true
+    },
+    "bs": {
+        "name": {
+            "ja": "磁束密度",
+            "en": "Bs"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "unit": "emu",
+        "_feature": true
+    },
+    "brt": {
+        "name": {
+            "ja": "残留磁化x膜厚",
+            "en": "Brt"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "unit": "memu",
+        "_feature": true
+    },
+    "bs_per_volume": {
+        "name": {
+            "ja": "磁束密度/体積",
+            "en": "Bs/Volume"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "unit": "emu/cm^3",
+        "_feature": true
+    }
+}

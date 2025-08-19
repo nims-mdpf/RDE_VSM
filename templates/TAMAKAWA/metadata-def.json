@@ -1,0 +1,213 @@
+{
+    "date": {
+        "name": {
+            "ja": "測定日",
+            "en": "Date"
+        },
+        "schema": {
+            "type": "string"
+        }
+    },
+    "sample_name": {
+        "name": {
+            "ja": "サンプル名",
+            "en": "Sample name"
+        },
+        "schema": {
+            "type": "string"
+        }
+    },
+    "applied_magnetic_field": {
+        "name": {
+            "ja": "印加磁場条件",
+            "en": "Applied magnetic field"
+        },
+        "schema": {
+            "type": "string"
+        }
+    },
+    "temperature": {
+        "name": {
+            "ja": "温度",
+            "en": "Temperature"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "unit": "C"
+    },
+    "max_magnetic_field": {
+        "name": {
+            "ja": "最大磁化",
+            "en": "Max magnetic field"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "unit": "Oe"
+    },
+    "calibration_value": {
+        "name": {
+            "ja": "キャリブレーション値",
+            "en": "Calibration value"
+        },
+        "schema": {
+            "type": "number"
+        }
+    },
+    "sample_thickness": {
+        "name": {
+            "ja": "サンプル厚さ",
+            "en": "Sample thickness"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "unit": "nm"
+    },
+    "sample_cross_section": {
+        "name": {
+            "ja": "サンプル断面積",
+            "en": "Sample cross section"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "unit": "cm2"
+    },
+    "correction_of_demagnetization_field": {
+        "name": {
+            "ja": "反磁界補正の有無",
+            "en": "Correction of demagnetization field"
+        },
+        "schema": {
+            "type": "string"
+        }
+    },
+    "correction_of_diamagnetism": {
+        "name": {
+            "ja": "反磁性補正",
+            "en": "Correction of diamagnetism"
+        },
+        "schema": {
+            "type": "string"
+        }
+    },
+    "add-subtract_process": {
+        "name": {
+            "ja": "加減算処理",
+            "en": "Add-subtract process"
+        },
+        "schema": {
+            "type": "string"
+        }
+    },
+    "segment_processing": {
+        "name": {
+            "ja": "セグメント処理",
+            "en": "Segment processing"
+        },
+        "schema": {
+            "type": "string"
+        }
+    },
+    "spline_interpolation": {
+        "name": {
+            "ja": "スプライン補間",
+            "en": "Spline interpolation"
+        },
+        "schema": {
+            "type": "string"
+        }
+    },
+    "smoothing_process": {
+        "name": {
+            "ja": "平滑化処理",
+            "en": "Smoothing process"
+        },
+        "schema": {
+            "type": "string"
+        }
+    },
+    "correction_of_image_effect": {
+        "name": {
+            "ja": "ミラー補正",
+            "en": "Correction of image effect"
+        },
+        "schema": {
+            "type": "string"
+        }
+    },
+    "hc": {
+        "name": {
+            "ja": "保磁力",
+            "en": "Hc"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "unit": "T"
+    },
+    "br": {
+        "name": {
+            "ja": "残留磁化",
+            "en": "Br"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "unit": "emu"
+    },
+    "br_per_volume": {
+        "name": {
+            "ja": "残留磁化/体積",
+            "en": "Br/Volume"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "unit": "T"
+    },
+    "br_per_volume_corrected": {
+        "name": {
+            "ja": "残留磁化/体積（補正後）",
+            "en": "Br/Volume(Corrected)"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "unit": "T",
+        "_feature": true
+    },
+    "ms": {
+        "name": {
+            "ja": "飽和磁化",
+            "en": "Ms"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "unit": "emu"
+    },
+    "ms_per_volume": {
+        "name": {
+            "ja": "飽和磁化/体積",
+            "en": "Ms/Volume"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "unit": "T"
+    },
+    "ms_per_volume_corrected": {
+        "name": {
+            "ja": "飽和磁化/体積（補正後）",
+            "en": "Ms/Volume(Corrected)"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "unit": "T",
+        "_feature": true
+    }
+}

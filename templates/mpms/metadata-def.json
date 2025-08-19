@@ -1,0 +1,418 @@
+{
+    "appname": {
+        "name": {
+            "ja": "APPNAME",
+            "en": "APPNAME"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "originalName": "APPNAME"
+    },
+    "byapp": {
+        "name": {
+            "ja": "BYAPP",
+            "en": "BYAPP"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "originalName": "BYAPP"
+    },
+    "coil_serial_number": {
+        "name": {
+            "ja": "コイルシリアル番号",
+            "en": "COIL_SERIAL_NUMBER"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "originalName": "COIL_SERIAL_NUMBER"
+    },
+    "comment": {
+        "name": {
+            "ja": "コメント",
+            "en": "COMMENT"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "originalName": "COMMENT"
+    },
+    "fieldgroup_dc": {
+        "name": {
+            "ja": "磁場グループ_DC",
+            "en": "FIELDGROUP_DC"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "originalName": "FIELDGROUP_DC"
+    },
+    "fieldgroup_vsm": {
+        "name": {
+            "ja": "磁場グループ_VSM",
+            "en": "FIELDGROUP_VSM"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "originalName": "FIELDGROUP_VSM"
+    },
+    "fileopentime": {
+        "name": {
+            "ja": "ファイルを開いた時間",
+            "en": "FILEOPENTIME"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "originalName": "FILEOPENTIME"
+    },
+    "moment_units": {
+        "name": {
+            "ja": "磁化の単位",
+            "en": "MOMENT_UNITS"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "originalName": "MOMENT_UNITS"
+    },
+    "motor_hw_version": {
+        "name": {
+            "ja": "モーターハードウエアのバージョン",
+            "en": "MOTOR_HW_VERSION"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "originalName": "MOTOR_HW_VERSION"
+    },
+    "motor_module_name": {
+        "name": {
+            "ja": "モーターモジュールの名前",
+            "en": "MOTOR_MODULE_NAME"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "originalName": "MOTOR_MODULE_NAME"
+    },
+    "motor_serial_number": {
+        "name": {
+            "ja": "モーターのシリアル番号",
+            "en": "MOTOR_SERIAL_NUMBER"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "originalName": "MOTOR_SERIAL_NUMBER"
+    },
+    "motor_software_version": {
+        "name": {
+            "ja": "モーターソフトウエアのバージョン",
+            "en": "MOTOR_SOFTWARE_VERSION"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "originalName": "MOTOR_SOFTWARE_VERSION"
+    },
+    "oven_hw_version": {
+        "name": {
+            "ja": "オーブンハードウエアのバージョン",
+            "en": "OVEN_HW_VERSION"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "originalName": "OVEN_HW_VERSION"
+    },
+    "oven_module_name": {
+        "name": {
+            "ja": "オーブンモジュールの名前",
+            "en": "OVEN_MODULE_NAME"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "originalName": "OVEN_MODULE_NAME"
+    },
+    "oven_serial_number": {
+        "name": {
+            "ja": "オーブンのシリアル番号",
+            "en": "OVEN_SERIAL_NUMBER"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "originalName": "OVEN_SERIAL_NUMBER"
+    },
+    "oven_software_version": {
+        "name": {
+            "ja": "オーブンソフトウエアのバージョン",
+            "en": "OVEN_SOFTWARE_VERSION"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "originalName": "OVEN_SOFTWARE_VERSION"
+    },
+    "sample_comment": {
+        "name": {
+            "ja": "サンプルコメント",
+            "en": "SAMPLE_COMMENT"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "originalName": "SAMPLE_COMMENT"
+    },
+    "sample_holder": {
+        "name": {
+            "ja": "サンプルホルダー",
+            "en": "SAMPLE_HOLDER"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "originalName": "SAMPLE_HOLDER"
+    },
+    "sample_holder_detail": {
+        "name": {
+            "ja": "サンプルホルダー詳細",
+            "en": "SAMPLE_HOLDER_DETAIL"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "originalName": "SAMPLE_HOLDER_DETAIL"
+    },
+    "sample_mass": {
+        "name": {
+            "ja": "サンプル重量",
+            "en": "SAMPLE_MASS"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "originalName": "SAMPLE_MASS"
+    },
+    "sample_material": {
+        "name": {
+            "ja": "サンプルの材質",
+            "en": "SAMPLE_MATERIAL"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "originalName": "SAMPLE_MATERIAL"
+    },
+    "sample_molecular_weight": {
+        "name": {
+            "ja": "サンプルのモル量",
+            "en": "SAMPLE_MOLECULAR_WEIGHT"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "originalName": "SAMPLE_MOLECULAR_WEIGHT"
+    },
+    "sample_offset": {
+        "name": {
+            "ja": "サンプルオフセット",
+            "en": "SAMPLE_OFFSET"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "originalName": "SAMPLE_OFFSET",
+        "unit": "mm"
+    },
+    "sample_shape": {
+        "name": {
+            "ja": "サンプル形状",
+            "en": "SAMPLE_SHAPE"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "originalName": "SAMPLE_SHAPE"
+    },
+    "sample_size": {
+        "name": {
+            "ja": "サンプルサイズ",
+            "en": "SAMPLE_SIZE"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "originalName": "SAMPLE_SIZE"
+    },
+    "sample_volume": {
+        "name": {
+            "ja": "サンプル体積",
+            "en": "SAMPLE_VOLUME"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "originalName": "SAMPLE_VOLUME"
+    },
+    "squid_hw_version": {
+        "name": {
+            "ja": "SQUIDハードウエアのバージョン",
+            "en": "SQUID_HW_VERSION"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "originalName": "SQUID_HW_VERSION"
+    },
+    "squid_module_name": {
+        "name": {
+            "ja": "SQUIDモジュール名",
+            "en": "SQUID_MODULE_NAME"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "originalName": "SQUID_MODULE_NAME"
+    },
+    "squid_serial_number": {
+        "name": {
+            "ja": "SQUIDシリアル番号",
+            "en": "SQUID_SERIAL_NUMBER"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "originalName": "SQUID_SERIAL_NUMBER"
+    },
+    "squid_software_version": {
+        "name": {
+            "ja": "SQUIDソフトウエアのバージョン",
+            "en": "SQUID_SOFTWARE_VERSION"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "originalName": "SQUID_SOFTWARE_VERSION"
+    },
+    "startupaxis_x": {
+        "name": {
+            "ja": "測定開始時のX軸",
+            "en": "STARTUPAXIS_X"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "originalName": "STARTUPAXIS_X"
+    },
+    "startupaxis_y1": {
+        "name": {
+            "ja": "測定開始時のY軸",
+            "en": "STARTUPAXIS_Y1"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "originalName": "STARTUPAXIS_Y1"
+    },
+    "time": {
+        "name": {
+            "ja": "時間",
+            "en": "TIME"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "originalName": "TIME"
+    },
+    "sample_size_height": {
+        "name": {
+            "ja": "サンプルサイズ(縦)",
+            "en": "SAMPLE_SIZE(height)"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "unit": "mm"
+    },
+    "sample_size_width": {
+        "name": {
+            "ja": "サンプルサイズ(横)",
+            "en": "SAMPLE_SIZE(width)"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "unit": "mm"
+    },
+    "sample_size_thickness": {
+        "name": {
+            "ja": "サンプルサイズ(厚さ)",
+            "en": "SAMPLE_SIZE(thickness)"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "unit": "nm"
+    },
+    "hc": {
+        "name": {
+            "ja": "保磁力",
+            "en": "Hc"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "unit": "T",
+        "_feature": true
+    },
+    "br": {
+        "name": {
+            "ja": "残留磁化",
+            "en": "Br"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "unit": "emu",
+        "_feature": true
+    },
+    "bs": {
+        "name": {
+            "ja": "磁束密度",
+            "en": "Bs"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "unit": "emu",
+        "_feature": true
+    },
+    "brt": {
+        "name": {
+            "ja": "残留磁化x膜厚",
+            "en": "Brt"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "unit": "memu/mm^2",
+        "_feature": true
+    },
+    "bs_per_volume": {
+        "name": {
+            "ja": "磁束密度/体積",
+            "en": "Bs/Volume"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "unit": "emu/cm^3",
+        "_feature": true
+    }
+}
