@@ -176,8 +176,7 @@
         "schema": {
             "type": "string"
         },
-        "unit": "T",
-        "_feature": true
+        "unit": "T"
     },
     "ms": {
         "name": {
@@ -207,7 +206,6 @@
         "schema": {
             "type": "string"
         },
-        "unit": "T",
-        "_feature": true
+        "unit": "T"
     }
 }
