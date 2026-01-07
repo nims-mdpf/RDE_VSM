@@ -1,7 +1,7 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://rde.nims.go.jp/rde/dataset-templates/NIMS_VSM_LAKESHORE_1.0/invoice.schema.json",
-    "description": "固有情報と試料情報のスキーマ",
+    "$id": "https://rde.nims.go.jp/rde/dataset-templates/RDEDatasetTemplateSheet_RDE_VSM_LakeShore/invoice.schema.json",
+    "description": "標準データセットテンプレートRED_VSM_LakeShore用RDEデータセットテンプレート: 送状定義",
     "type": "object",
     "required": [
         "custom",
