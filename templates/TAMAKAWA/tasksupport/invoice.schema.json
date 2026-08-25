@@ -1,7 +1,7 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://rde.nims.go.jp/rde/dataset-templates/RDEDatasetTemplateSheet_RDE_VSM_TAMAKAWA/invoice.schema.json",
-    "description": "標準データセットテンプレートRDE_VSM_TAMAKAWA用RDEデータセットテンプレート: 送状定義",
+    "$id": "https://rde.nims.go.jp/rde/dataset-templates/NIMS_VSM_TAMAKAWA_1.0/invoice.schema.json",
+    "description": "固有情報と試料情報のスキーマ",
     "type": "object",
     "required": [
         "custom"
@@ -16,54 +16,54 @@
             "required": [],
             "properties": {
                 "sputtering_apparatus": {
+                    "type": "string",
                     "label": {
                         "ja": "スパッタリング装置",
                         "en": "Sputtering Apparatus"
                     },
-                    "type": "string",
                     "options": {
                         "placeholder": {
-                            "ja": "ファイル名から自動取得します",
-                            "en": "Automatically get from file name"
+                             "ja": "ファイル名から自動取得します",
+                             "en": "Automatically get from file name"
                         }
                     }
                 },
                 "specimen_label": {
+                    "type": "string",
                     "label": {
                         "ja": "試料名",
                         "en": "Specimen label"
                     },
-                    "type": "string",
                     "options": {
                         "placeholder": {
-                            "ja": "ファイル名から自動取得します",
-                            "en": "Automatically get from file name"
+                             "ja": "ファイル名から自動取得します",
+                             "en": "Automatically get from file name"
                         }
                     }
                 },
                 "sample_year": {
+                    "type": "string",
                     "label": {
                         "ja": "試料作製年",
                         "en": "Sample year"
                     },
-                    "type": "string",
                     "options": {
                         "placeholder": {
-                            "ja": "ファイル名から自動取得します",
-                            "en": "Automatically get from file name"
+                             "ja": "ファイル名から自動取得します",
+                             "en": "Automatically get from file name"
                         }
                     }
                 },
                 "sample_month": {
+                    "type": "string",
                     "label": {
                         "ja": "試料作製月",
                         "en": "Sample month"
                     },
-                    "type": "string",
                     "options": {
                         "placeholder": {
-                            "ja": "ファイル名から自動取得します",
-                            "en": "Automatically get from file name"
+                             "ja": "ファイル名から自動取得します",
+                             "en": "Automatically get from file name"
                         }
                     }
                 },
@@ -113,7 +113,7 @@
                         "en": "Correction factor"
                     },
                     "type": "number",
-                    "default": 1.0
+                    "default": 1
                 },
                 "background_removal": {
                     "label": {
