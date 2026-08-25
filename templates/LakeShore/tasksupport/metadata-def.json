@@ -37,7 +37,8 @@
         "schema": {
             "type": "string"
         },
-        "unit": "T"
+        "unit": "T",
+        "_feature": true
     },
     "br": {
         "name": {
@@ -47,7 +48,8 @@
         "schema": {
             "type": "string"
         },
-        "unit": "emu"
+        "unit": "emu",
+        "_feature": true
     },
     "bs": {
         "name": {
@@ -57,7 +59,8 @@
         "schema": {
             "type": "string"
         },
-        "unit": "emu"
+        "unit": "emu",
+        "_feature": true
     },
     "brt": {
         "name": {
@@ -67,7 +70,8 @@
         "schema": {
             "type": "string"
         },
-        "unit": "memu"
+        "unit": "memu",
+        "_feature": true
     },
     "bs_per_volume": {
         "name": {
@@ -77,6 +81,7 @@
         "schema": {
             "type": "string"
         },
-        "unit": "emu/cm^3"
+        "unit": "emu/cm^3",
+        "_feature": true
     }
 }

@@ -28,42 +28,42 @@ VSMの専門家によって監修されたメタ情報をデータファイル�
 |dat, txt, VSMフォーマット|※以下の'拡張子以外の命名規則について'参照|VSM(もしくは付属ソフトウェア)が出力するデータファイル|
 
 - 登録ファイルの中身 (以下、例)
-  - EIKO＠643_O20230125-3_VSM_In20230126.dat (テキストデータ)
-    <img alt="dat.png" src="./images/dat.png" width="300px">
+  - EIKO@643_O20230125-3_VSM_In20230126.dat (テキストデータ)
+    ![dat.png](images/dat.png)
   - E1021_out.txt (テキストデータ)
-    <img alt="txt.png" src="./images/txt.png" width="300px">
-  - EIKO＠643_DO20230908-1-1_VSM_In20230911.VSM (テキストデータ)
-    <img alt="VSM.png" src="./images/VSM.png" width="300px">　
+    ![txt.png](images/txt.png)
+  - EIKO@643_DO20230908-1-1_VSM_In20230911.VSM (テキストデータ)
+    ![VSM.png](images/VSM.png)　
     　
 - 拡張子以外の命名規則について (ただし、txtフォーマットは対象外)
   - ベース名は`_`で区切られた2つ以上のセクションで構成され、セクション2は試料名(ローカルID)メタにマッピングされる
   - ベース名の左から3つ目以降の`_`は区切り文字として扱わない
   - ファイル名 (以下、例)
-    - EIKO＠643_DO20230506-1_VSM_In20230631.dat
-    - EIKO＠643_DO20230908-1-1_VSM_In20230911.VSM
+    - EIKO@643_DO20230506-1_VSM_In20230631.dat
+    - EIKO@643_DO20230908-1-1_VSM_In20230911.VSM
 
 || 文字列 セクション１| 文字列セクション2| 文字列 セクション2-1| 文字列 セクション2-2| 文字列 セクション2-3| 文字列 セクション2-4| 文字列 セクション2-5| 文字列 セクション3| 文字列 セクション4|
 |-------|--------------|-------------------|--------------|-----------------|---------------|--------------|--------------|------------------|----------------|
-|例） EIKO＠643_DO20230506-1_VSM_In20230631.dat| EIKO＠643| DO20230506-1| DO| 2023| 05| 06| -1| VSM| In20230531.dat|
-|例） EIKO＠643_DO20230908-1-1_VSM_In20230911.VSM| EIKO＠643| DO20230908-1-1| DO| 2023| 09| 08| -1-1| VSM| In20230911.VSM|
+|例） EIKO@643_DO20230506-1_VSM_In20230631.dat| EIKO@643| DO20230506-1| DO| 2023| 05| 06| -1| VSM| In20230531.dat|
+|例） EIKO@643_DO20230908-1-1_VSM_In20230911.VSM| EIKO@643| DO20230908-1-1| DO| 2023| 09| 08| -1-1| VSM| In20230911.VSM|
 |内容| スパッタリング装置| 試料名| 測定者イニシャル| 試料作製年| 試料作製月| 試料作製日| 枝番| invoice/登録データタイプ| ファイル名|
 |データ型| 文字列| 文字列| 文字列最大2桁| 19 or 20から始まる4桁| 試料作成年のあとの2桁| 試料作成月のあとの2桁| 試料作成日のあと| VSM| In20230531.dat|
 |マッピング| invoice/sputtering_apparatus| invoice/specimen_label| --| invoice/sample_year| invoice/sample_month| --| --| invoice/common_data_type| --|
 |必須|〇|〇|〇|〇|〇|〇|--|〇|〇|
 
 ### 出力ファイル
-- ファイル名の<入力ファイル>は、入力ファイルである`VSMが出力する生データファイル`（EIKO＠643_O20230125-3_VSM_In20230126.datなど）のファイル名です。
+- ファイル名の<入力ファイル>は、入力ファイルである`VSMが出力する生データファイル`（EIKO@643_O20230125-3_VSM_In20230126.datなど）のファイル名です。
 
 |ファイル名|内容|備考|
 |:----|:----|:----|
-|<入力ファイル>|nonshared_rawデータファイル|<img alt="F58_Temp_loop_MT.dat.png" src="./images/dat.png" width="300px">|
-|metadata.json|主要パラメータメタ情報ファイル|<img alt="metajson.png" src="./images/metajson.png" width="300px">|
-|<入力ファイル>_raw.csv|生データをプロットするための数値ファイル<br>入力ファイルから該当行を抜き出す|<img alt="F58_Temp_loop_MT_raw.csv.png" src="./images/F58_Temp_loop_MT_raw.csv.png" width="300px">|
-|<入力ファイル>_param.csv|特徴量リストファイル<br>特徴量の取得に失敗した場合は作成しない|<img alt="F58_Temp_loop_MT_param.csv.png" src="./images/F58_Temp_loop_MT_param.csv.png" width="300px">|
-|<入力ファイル>.csv|バックグラウンド処理、特異点除去、特徴量抽出処理を行った数値ファイル|<img alt="F58_Temp_loop_MT.csv.png" src="./images/F58_Temp_loop_MT.csv.png" width="300px">|
-|<入力ファイル>_bs.png|B-H曲線の画像。設定ファイルで代表画像ファイルに指定可能。|<img alt="F58_Temp_loop_MT_bs.png" src="./images/E1021_out_bs.png" width="300px">|
-|<入力ファイル>_ms.png|M-H曲線の画像。設定ファイルで代表画像ファイルに指定可能。|<img alt="F58_Temp_loop_MT_ms.png" src="./images/E1021_out_ms.png" width="300px">|
-|<入力ファイル>_raw.png|画像ファイル。<入力ファイル>_raw.csvを可視化。|<img alt="F58_Temp_loop_MT_raw" src="./images/F58_Temp_loop_MT_raw.png" width="300px">|
+|<入力ファイル>|nonshared_rawデータファイル|![F58_Temp_loop_MT.dat.png](images/dat.png)|
+|metadata.json|主要パラメータメタ情報ファイル|![metajson.png](images/metajson.png)|
+|<入力ファイル>_raw.csv|生データをプロットするための数値ファイル<br>入力ファイルから該当行を抜き出す|![F58_Temp_loop_MT_raw.csv.png](images/F58_Temp_loop_MT_raw.csv.png)|
+|<入力ファイル>_param.csv|特徴量リストファイル<br>特徴量の取得に失敗した場合は作成しない|![F58_Temp_loop_MT_param.csv.png](images/F58_Temp_loop_MT_param.csv.png)|
+|<入力ファイル>.csv|バックグラウンド処理、特異点除去、特徴量抽出処理を行った数値ファイル|![F58_Temp_loop_MT.csv.png](images/F58_Temp_loop_MT.csv.png)|
+|<入力ファイル>_bs.png|B-H曲線の画像。設定ファイルで代表画像ファイルに指定可能。|![F58_Temp_loop_MT_bs.png](images/E1021_out_bs.png)|
+|<入力ファイル>_ms.png|M-H曲線の画像。設定ファイルで代表画像ファイルに指定可能。|![F58_Temp_loop_MT_ms.png](images/E1021_out_ms.png)|
+|<入力ファイル>_raw.png|画像ファイル。<入力ファイル>_raw.csvを可視化。|![F58_Temp_loop_MT_raw](images/F58_Temp_loop_MT_raw.png)|
 
 
 ### メタ情報
@@ -101,7 +101,7 @@ VSMの専門家によって監修されたメタ情報をデータファイル�
 |background_removal|||バックグラウンド処理の有無|Background removal|boolean||true|false|true| | 
 |spike_removal|||スパイクノイズ除去処理の有無|Spike removal|boolean||true|false|true| | 
 |feature_acquisition|||特徴量取得の有無|Feature acquisition|boolean||true|true|true| | 
-|sputtering_apparatus||1|スパッタリング装置|Sputtering Apparatus|string||EIKO＠643|||.dat, .VSM|<入力ファイル> 文字列セクション1をマッピング|
+|sputtering_apparatus||1|スパッタリング装置|Sputtering Apparatus|string||EIKO@643|||.dat, .VSM|<入力ファイル> 文字列セクション1をマッピング|
 |specimen_label||4|試料名|Specimen label|string||DO20230506-1|||.dat, .VSM|<入力ファイル> 文字列セクション2をマッピング|
 |sample.year||2|試料作製年|Sample year|number||2023|||.dat, .VSM|<入力ファイル> 文字列セクション2-2をマッピング|
 |sample.month||3|試料作製月|Sample month|number||05|||.dat, .VSM|<入力ファイル> 文字列セクション2-3をマッピング|
@@ -389,15 +389,3 @@ def dataset(
         dc_rm_col=dc_rm_col,
     )
 ```
-
-## データセットテンプレートシートについて
-
-　メタデータ定義(metadata-def.json)、送状定義(invoice.schema.json)、カタログ定義(catalog.schema.json)をエクセル形式のシートから生成することができるツールを以下に用意してあります。
-
-[RDE/データセットテンプレート生成、確認ツール](https://github.com/nims-mdpf/RDE_datasettemplate-schemafile-make-tool)
-
-　上記のツールで利用可能な本データセットテンプレート用のデータセットテンプレートシートは以下の通りです。
-
-- [templates/LakeShore用](./RDEDatasetTemplateSheet_RDE_VSM_LakeShore.xlsx)
-- [templates/mpms用](./RDEDatasetTemplateSheet_RDE_VSM_mpms.xlsx)
-- [templates/TAMAKAWA用](./RDEDatasetTemplateSheet_RDE_VSM_TAMAKAWA.xlsx)

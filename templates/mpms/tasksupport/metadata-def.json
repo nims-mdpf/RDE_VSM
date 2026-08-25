@@ -7,7 +7,7 @@
         "schema": {
             "type": "string"
         },
-        "original_name": "APPNAME"
+        "originalName": "APPNAME"
     },
     "byapp": {
         "name": {
@@ -17,7 +17,7 @@
         "schema": {
             "type": "string"
         },
-        "original_name": "BYAPP"
+        "originalName": "BYAPP"
     },
     "coil_serial_number": {
         "name": {
@@ -27,7 +27,7 @@
         "schema": {
             "type": "string"
         },
-        "original_name": "COIL_SERIAL_NUMBER"
+        "originalName": "COIL_SERIAL_NUMBER"
     },
     "comment": {
         "name": {
@@ -37,7 +37,7 @@
         "schema": {
             "type": "string"
         },
-        "original_name": "COMMENT"
+        "originalName": "COMMENT"
     },
     "fieldgroup_dc": {
         "name": {
@@ -47,7 +47,7 @@
         "schema": {
             "type": "string"
         },
-        "original_name": "FIELDGROUP_DC"
+        "originalName": "FIELDGROUP_DC"
     },
     "fieldgroup_vsm": {
         "name": {
@@ -57,7 +57,7 @@
         "schema": {
             "type": "string"
         },
-        "original_name": "FIELDGROUP_VSM"
+        "originalName": "FIELDGROUP_VSM"
     },
     "fileopentime": {
         "name": {
@@ -67,7 +67,7 @@
         "schema": {
             "type": "string"
         },
-        "original_name": "FILEOPENTIME"
+        "originalName": "FILEOPENTIME"
     },
     "moment_units": {
         "name": {
@@ -77,7 +77,7 @@
         "schema": {
             "type": "string"
         },
-        "original_name": "MOMENT_UNITS"
+        "originalName": "MOMENT_UNITS"
     },
     "motor_hw_version": {
         "name": {
@@ -87,7 +87,7 @@
         "schema": {
             "type": "string"
         },
-        "original_name": "MOTOR_HW_VERSION"
+        "originalName": "MOTOR_HW_VERSION"
     },
     "motor_module_name": {
         "name": {
@@ -97,7 +97,7 @@
         "schema": {
             "type": "string"
         },
-        "original_name": "MOTOR_MODULE_NAME"
+        "originalName": "MOTOR_MODULE_NAME"
     },
     "motor_serial_number": {
         "name": {
@@ -107,7 +107,7 @@
         "schema": {
             "type": "string"
         },
-        "original_name": "MOTOR_SERIAL_NUMBER"
+        "originalName": "MOTOR_SERIAL_NUMBER"
     },
     "motor_software_version": {
         "name": {
@@ -117,7 +117,7 @@
         "schema": {
             "type": "string"
         },
-        "original_name": "MOTOR_SOFTWARE_VERSION"
+        "originalName": "MOTOR_SOFTWARE_VERSION"
     },
     "oven_hw_version": {
         "name": {
@@ -127,7 +127,7 @@
         "schema": {
             "type": "string"
         },
-        "original_name": "OVEN_HW_VERSION"
+        "originalName": "OVEN_HW_VERSION"
     },
     "oven_module_name": {
         "name": {
@@ -137,7 +137,7 @@
         "schema": {
             "type": "string"
         },
-        "original_name": "OVEN_MODULE_NAME"
+        "originalName": "OVEN_MODULE_NAME"
     },
     "oven_serial_number": {
         "name": {
@@ -147,7 +147,7 @@
         "schema": {
             "type": "string"
         },
-        "original_name": "OVEN_SERIAL_NUMBER"
+        "originalName": "OVEN_SERIAL_NUMBER"
     },
     "oven_software_version": {
         "name": {
@@ -157,7 +157,7 @@
         "schema": {
             "type": "string"
         },
-        "original_name": "OVEN_SOFTWARE_VERSION"
+        "originalName": "OVEN_SOFTWARE_VERSION"
     },
     "sample_comment": {
         "name": {
@@ -167,7 +167,7 @@
         "schema": {
             "type": "string"
         },
-        "original_name": "SAMPLE_COMMENT"
+        "originalName": "SAMPLE_COMMENT"
     },
     "sample_holder": {
         "name": {
@@ -177,7 +177,7 @@
         "schema": {
             "type": "string"
         },
-        "original_name": "SAMPLE_HOLDER"
+        "originalName": "SAMPLE_HOLDER"
     },
     "sample_holder_detail": {
         "name": {
@@ -187,7 +187,7 @@
         "schema": {
             "type": "string"
         },
-        "original_name": "SAMPLE_HOLDER_DETAIL"
+        "originalName": "SAMPLE_HOLDER_DETAIL"
     },
     "sample_mass": {
         "name": {
@@ -197,7 +197,7 @@
         "schema": {
             "type": "number"
         },
-        "original_name": "SAMPLE_MASS"
+        "originalName": "SAMPLE_MASS"
     },
     "sample_material": {
         "name": {
@@ -207,7 +207,7 @@
         "schema": {
             "type": "string"
         },
-        "original_name": "SAMPLE_MATERIAL"
+        "originalName": "SAMPLE_MATERIAL"
     },
     "sample_molecular_weight": {
         "name": {
@@ -217,7 +217,7 @@
         "schema": {
             "type": "number"
         },
-        "original_name": "SAMPLE_MOLECULAR_WEIGHT"
+        "originalName": "SAMPLE_MOLECULAR_WEIGHT"
     },
     "sample_offset": {
         "name": {
@@ -227,8 +227,8 @@
         "schema": {
             "type": "number"
         },
-        "unit": "mm",
-        "original_name": "SAMPLE_OFFSET"
+        "originalName": "SAMPLE_OFFSET",
+        "unit": "mm"
     },
     "sample_shape": {
         "name": {
@@ -238,7 +238,7 @@
         "schema": {
             "type": "string"
         },
-        "original_name": "SAMPLE_SHAPE"
+        "originalName": "SAMPLE_SHAPE"
     },
     "sample_size": {
         "name": {
@@ -248,7 +248,7 @@
         "schema": {
             "type": "string"
         },
-        "original_name": "SAMPLE_SIZE"
+        "originalName": "SAMPLE_SIZE"
     },
     "sample_volume": {
         "name": {
@@ -258,7 +258,7 @@
         "schema": {
             "type": "number"
         },
-        "original_name": "SAMPLE_VOLUME"
+        "originalName": "SAMPLE_VOLUME"
     },
     "squid_hw_version": {
         "name": {
@@ -268,7 +268,7 @@
         "schema": {
             "type": "string"
         },
-        "original_name": "SQUID_HW_VERSION"
+        "originalName": "SQUID_HW_VERSION"
     },
     "squid_module_name": {
         "name": {
@@ -278,7 +278,7 @@
         "schema": {
             "type": "string"
         },
-        "original_name": "SQUID_MODULE_NAME"
+        "originalName": "SQUID_MODULE_NAME"
     },
     "squid_serial_number": {
         "name": {
@@ -288,7 +288,7 @@
         "schema": {
             "type": "string"
         },
-        "original_name": "SQUID_SERIAL_NUMBER"
+        "originalName": "SQUID_SERIAL_NUMBER"
     },
     "squid_software_version": {
         "name": {
@@ -298,7 +298,7 @@
         "schema": {
             "type": "string"
         },
-        "original_name": "SQUID_SOFTWARE_VERSION"
+        "originalName": "SQUID_SOFTWARE_VERSION"
     },
     "startupaxis_x": {
         "name": {
@@ -308,7 +308,7 @@
         "schema": {
             "type": "string"
         },
-        "original_name": "STARTUPAXIS_X"
+        "originalName": "STARTUPAXIS_X"
     },
     "startupaxis_y1": {
         "name": {
@@ -318,7 +318,7 @@
         "schema": {
             "type": "string"
         },
-        "original_name": "STARTUPAXIS_Y1"
+        "originalName": "STARTUPAXIS_Y1"
     },
     "time": {
         "name": {
@@ -328,7 +328,7 @@
         "schema": {
             "type": "string"
         },
-        "original_name": "TIME"
+        "originalName": "TIME"
     },
     "sample_size_height": {
         "name": {
@@ -368,7 +368,8 @@
         "schema": {
             "type": "string"
         },
-        "unit": "T"
+        "unit": "T",
+        "_feature": true
     },
     "br": {
         "name": {
@@ -378,7 +379,8 @@
         "schema": {
             "type": "string"
         },
-        "unit": "emu"
+        "unit": "emu",
+        "_feature": true
     },
     "bs": {
         "name": {
@@ -388,7 +390,8 @@
         "schema": {
             "type": "string"
         },
-        "unit": "emu"
+        "unit": "emu",
+        "_feature": true
     },
     "brt": {
         "name": {
@@ -398,7 +401,8 @@
         "schema": {
             "type": "string"
         },
-        "unit": "memu/mm^2"
+        "unit": "memu/mm^2",
+        "_feature": true
     },
     "bs_per_volume": {
         "name": {
@@ -408,6 +412,7 @@
         "schema": {
             "type": "string"
         },
-        "unit": "emu/cm^3"
+        "unit": "emu/cm^3",
+        "_feature": true
     }
 }
